@@ -15,19 +15,24 @@ The dataset is derived from 818 full-text articles from the Journal of Informetr
 Preprocessed Dataset.csv: This CSV file is the final processed dataset used in this experiment. The structure of this dataset contains paper_id, sentence, sec_id, section_name, section_cat, intent
 
 
-```csv
+```json
 
+{
+  "paper_id": "10.1016_j.joi.2012.07.006",
+  "sentence": "In other words, it is a pattern of contacts which are created due to the flow of information among the participating actors ([bib0295]).",
+  "sec_id": "sec0005",
+  "section_name": "5.Conclusion",
+  "section_cat": "Conclusion",
+  "intent": "background"
+}
 
-| Column         | Description                                                             |
-| -------------- | ----------------------------------------------------------------------- |
-| `paper_id`     | Unique article identifier (e.g., DOI or internal ID)                    |
-| `sentence`     | The citation sentence from the article                                  |
-| `sec_id`       | Section ID of the citation sentence                                     |
-| `section_name` | Raw section name (e.g., "2. Related Work")                              |
-| `section_cat`  | Normalized section category (e.g., Introduction, Method, Results, etc.) |
-| `intent`       | Citation intent label (e.g., background, uses, motivation, etc.)        |
 ```
-
+'paper_id':       Unique article identifier (e.g., DOI or internal ID)                    
+'sentence':        The citation sentence from the article                                  
+'sec_id':            Section ID of the citation sentence                                     
+'section_name':      Raw section name (e.g., "2. Related Work")                              
+'section_cat':      Normalized section category (e.g., Introduction, Method, Results, etc.) 
+'intent':         Citation intent label (e.g., background, uses, motivation, etc.)   
 
 ### Intent Label Distribution
 
