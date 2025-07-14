@@ -76,7 +76,7 @@ Contains structural metadata for each paper. One JSON per article. It has the fo
   "depth": 1
 }
 ```
-*Used to assign sec_id and derive section_cat.
+
 
 ### controlled_outline.json
 Maps noisy or variable section names to standardized categories, It has the following schema:
