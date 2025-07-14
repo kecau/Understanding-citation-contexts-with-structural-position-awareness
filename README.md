@@ -12,7 +12,7 @@ The dataset is designed for training and evaluating citation intent classificati
 
 ###  Dataset used in this research 
 
-Preprocessed Dataset.csv: This CSV file is the final processed dataset used in this experiment. The Structure of this dataset contains: paper_id,sentence,sec_id,section_name,section_cat,intent
+Preprocessed Dataset.csv: This CSV file is the final processed dataset used in this experiment. The Structure of this dataset contains: paper_id, sentence, sec_id, section_name, section_cat, intent
 
 
 ```csv
