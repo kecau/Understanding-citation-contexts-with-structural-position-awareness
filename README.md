@@ -31,7 +31,7 @@ Preprocessed Dataset.csv: This CSV file is the final processed dataset used in t
 
 ### Intent Label Distribution
 
-Statistics
+
 Total Instances: 26,246
 ```json
 {
