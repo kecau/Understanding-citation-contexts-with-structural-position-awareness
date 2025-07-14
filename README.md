@@ -28,11 +28,11 @@ Preprocessed Dataset.csv: This CSV file is the final processed dataset used in t
 | `intent`       | Citation intent label (e.g., background, uses, motivation, etc.)        |
 ```
 
-Statistics
-Total Instances: 26,246
 
 ### Intent Label Distribution
 
+Statistics
+Total Instances: 26,246
 ```json
 {
   "background": 21657,
