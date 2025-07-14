@@ -10,9 +10,9 @@ This repository contains the dataset and resources used in this paper:
 
 The dataset is designed for training and evaluating citation intent classification models by incorporating section-level information.
 
-###  Dataset used in this research Preprocessed Dataset.csv
+###  Dataset used in this research 
 
-This CSV is the final processed dataset used in this experiment. The Structure of this dataset contains: paper_id,sentence,sec_id,section_name,section_cat,intent
+Preprocessed Dataset.csv: This CSV file is the final processed dataset used in this experiment. The Structure of this dataset contains: paper_id,sentence,sec_id,section_name,section_cat,intent
 
 
 ```csv
