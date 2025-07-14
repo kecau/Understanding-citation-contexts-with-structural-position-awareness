@@ -8,7 +8,7 @@ This repository contains the dataset and resources used in this paper:
 
 ##  Dataset 
 
-The dataset is derived from 818 full-text articles from the Journal of Informetrics (Vol. 7–16), retrieved via the Scopus API. It isis designed for training and evaluating citation intent classification models by incorporating section-level information.
+The dataset is derived from 818 full-text articles from the Journal of Informetrics (Vol. 7–16), retrieved via the Scopus API. It is designed for training and evaluating citation intent classification models by incorporating section-level information.
 
 ###  Dataset used in this research 
 
