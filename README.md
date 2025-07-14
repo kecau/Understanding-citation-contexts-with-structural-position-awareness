@@ -98,12 +98,14 @@ Links in-text citation markers to external identifiers like DOIs, It has the fol
 
 The following steps were applied to create Preprocessed Dataset.csv:
 
-1. Extract citation sentences from *_sentence_intent.json
+The construction of Preprocessed_Dataset.csv involved the following steps:
 
-2. Map each citation to section metadata via section.zip
+1. Extract citation sentences from sentence.zip, *_sentence_intent.json files, which contain both the citation sentence and its labeled intent.
 
-3. Normalize section names using controlled_outline.json
+2. Map each citation to its corresponding section using metadata from section.zip, adding fields like sec_id and section_name.
 
-4. Map in-text citation IDs to external references via bibid_check.json
+3. Normalize section names by referring to controlled_outline.json, resulting in a new categorical field section_cat.
 
-5. Merge all into a unified DataFrame and save as CSV
+4. Resolve citation IDs by linking in-text citation markers to reference entries using bibid_check.json.
+
+5. Merge all information into a unified DataFrame and export as Preprocessed_Dataset.csv, including fields such as paper_id, sentence, section_cat, and intent.
