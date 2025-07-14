@@ -10,7 +10,7 @@ This repository contains the dataset and resources used in this paper:
 
 The dataset is designed for training and evaluating citation intent classification models by incorporating section-level information.
 
-###  Dataset used in this research: Preprocessed Dataset.csv
+###  Dataset used in this research Preprocessed Dataset.csv
 
 This CSV is the final processed dataset used in this experiment. The Structure of this dataset contains: paper_id,sentence,sec_id,section_name,section_cat,intent
 
@@ -31,7 +31,7 @@ This CSV is the final processed dataset used in this experiment. The Structure o
 Statistics
 Total Instances: 26,246
 
-### Intent Label Distribution:
+### Intent Label Distribution
 
 ```json
 {
