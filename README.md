@@ -100,12 +100,12 @@ The following steps were applied to create Preprocessed Dataset.csv:
 
 The construction of Preprocessed_Dataset.csv involved the following steps:
 
-1. Extract citation sentences from sentence.zip, *_sentence_intent.json files, which contain both the citation sentence and its labeled intent.
+1. Extract citation sentences from sentence.zip, *_sentence_intent.json files, which contain both the citation sentence and its labeled intent. In order to avoid ambiguity and ensure a more balanced dataset for classification—particularly given the limited number of multi-intent examples, only the first listed intent was retained as the primary label.
 
-2. Map each citation to its corresponding section using metadata from section.zip, adding fields like sec_id and section_name.
+2. Map each citation to its corresponding section using metadata from section.zip, adding fields such as sec_id and section_name.
 
-3. Normalize section names by referring to controlled_outline.json, resulting in a new categorical field section_cat.
+3. Normalize section names using controlled_outline.json, resulting in a standardized section category (section_cat) such as Introduction, Method, etc.
 
-4. Resolve citation IDs by linking in-text citation markers to reference entries using bibid_check.json.
+4. Resolve citation IDs by linking in-text citation markers to the corresponding bibliography entries using bibid_check.json.
 
-5. Merge all information into a unified DataFrame and export as Preprocessed_Dataset.csv, including fields such as paper_id, sentence, section_cat, and intent.
+5. Merge all information into a unified DataFrame, preserving paper_id, sentence, section_cat, and the simplified intent, and export it as Preprocessed_Dataset.csv.
