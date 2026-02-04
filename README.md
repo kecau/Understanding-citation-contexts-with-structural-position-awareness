@@ -117,7 +117,7 @@ We processed and extended the dataset for further research.
 
 ## Citation
 
-@INPROCEEDINGS{11365141,
+```@INPROCEEDINGS{11365141,
   author={Nam, Seohyun and Phan, Tuan Anh and Kim, Gwanpil and Jung, Jason J. and Bui, Khac-Hoai Nam},
   booktitle={2025 RIVF International Conference on Computing and Communication Technologies (RIVF)}, 
   title={Where You Cite Matters: Section-Aware Embeddings for Citation Intent Classification}, 
@@ -127,5 +127,6 @@ We processed and extended the dataset for further research.
   pages={1055-1060},
   keywords={Analytical models;Intent recognition;Computational modeling;Citation analysis;Semantics;Performance gain;Transformers;Graph neural networks;Communications technology;Context modeling;Citation intent classification;Citation context;Structural position;Scientific document structure;Sentence embeddings;Transformers;Citation analysis},
   doi={10.1109/RIVF68649.2025.11365141}}
+```
 
 
