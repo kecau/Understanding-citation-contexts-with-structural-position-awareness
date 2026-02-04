@@ -116,6 +116,7 @@ This repository is based on the original dataset ([https://github.com/agaritto](
 We processed and extended the dataset for further research.  
 
 ## Citation
+If you find this work useful, please cite our paper:
 
 ```@INPROCEEDINGS{11365141,
   author={Nam, Seohyun and Phan, Tuan Anh and Kim, Gwanpil and Jung, Jason J. and Bui, Khac-Hoai Nam},
